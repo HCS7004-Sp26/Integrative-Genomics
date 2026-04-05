@@ -1,0 +1,49 @@
+# Data files
+data/raw_data/*
+!data/raw_data/.gitkeep
+data/*/large_files/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+
+# Results
+results/*/
+!results/example_*/
+!results/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Container outputs
+*.sif
+*.img
+
+# Log files
+*.log
+logs/
+.nextflow*
+work/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
